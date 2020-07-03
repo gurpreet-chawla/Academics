@@ -1,8 +1,10 @@
 import React from "react";
-import "./Home.css";
-export class White2 extends React.Component{
-    render(){
-        return  <div>
+import "./Menu.css";
+const Academics = () => {
+
+
+    return(
+          <div>
                     <div className="edu">
                    <strong> MY EDUCATIONAL <br/>ATTAINMENTS </strong>
                     </div>
@@ -58,6 +60,11 @@ I have tons of sweet and bitter stories and experiences which might take a whole
                        
         
            
-                </div>;            
-    }
-}
+                </div>           
+
+
+
+    );
+};
+
+export default Academics;
